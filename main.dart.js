@@ -25011,7 +25011,7 @@ T:function(a){return new S.oE(new F.qp(null),!1,null)}}
 F.qp.prototype={
 aT:function(){return new F.Ds(C.p)}}
 F.Ds.prototype={
-T:function(a){var t=null,s=4278227102,r=4279511120,q=4292534759,p=u.t,o=M.ho(t,new T.fu(new V.aH(74,0,100,0),T.Fr(H.b([new T.fG(t,200,t,t),T.Uu(H.b([T.Fr(H.b([L.fM("Hola,",B.fh(new P.G(r),60,C.H)),L.fM("I'm Abhishak Kr. Malviya",B.fh(C.j,80,C.b_)),L.fM("Flutter Developer And Graphics Designer",B.fh(new P.G(r),40,C.H))],p),C.f6,C.j6),new T.u8(M.ho(t,U.TW("https://github.com/akmalviya03/z1x2c3v4t5y6u7/blob/master/assets/assets/images/abhishak.png",C.hL),t,t,t,400,t,t,400),t)],p),C.c3,C.oH),new T.fG(t,200,t,t),T.Uu(H.b([R.TY(!1,!0,L.fM("LinkedIn",B.fh(new P.G(q),30,C.H)),t,!0,t,t,t,t,t,t,t,t,t,new F.RR(),t),new T.fG(80,t,t,t),R.TY(!1,!0,L.fM("E-mail",B.fh(new P.G(q),30,C.H)),t,!0,t,t,t,t,t,t,t,t,t,new F.RS(),t)],p),C.c3,C.oG)],p),C.f6,C.j6),t),new P.G(s),t,t,1080,t,t,1920),n=M.ho(t,T.Uu(H.b([L.fM("All",B.fh(new P.G(s),20,C.H)),L.fM("UI/UX",B.fh(C.j,20,C.H)),L.fM("Flutter",B.fh(C.j,20,C.H)),L.fM("Logo Designs",B.fh(C.j,20,C.H)),L.fM("Other Designs",B.fh(C.j,20,C.H))],p),C.c3,C.ll),t,t,t,t,t,t,1600)
+T:function(a){var t=null,s=4278227102,r=4279511120,q=4292534759,p=u.t,o=M.ho(t,new T.fu(new V.aH(74,0,100,0),T.Fr(H.b([new T.fG(t,200,t,t),T.Uu(H.b([T.Fr(H.b([L.fM("Hola,",B.fh(new P.G(r),60,C.H)),L.fM("I'm Abhishak Kr. Malviya",B.fh(C.j,80,C.b_)),L.fM("Flutter Developer And Graphics Designer",B.fh(new P.G(r),40,C.H))],p),C.f6,C.j6),new T.u8(M.ho(t,U.TW("https://github.com/akmalviya03/z1x2c3v4t5y6u7/raw/master/assets/assets/images/abhishak.png",C.hL),t,t,t,400,t,t,400),t)],p),C.c3,C.oH),new T.fG(t,200,t,t),T.Uu(H.b([R.TY(!1,!0,L.fM("LinkedIn",B.fh(new P.G(q),30,C.H)),t,!0,t,t,t,t,t,t,t,t,t,new F.RR(),t),new T.fG(80,t,t,t),R.TY(!1,!0,L.fM("E-mail",B.fh(new P.G(q),30,C.H)),t,!0,t,t,t,t,t,t,t,t,t,new F.RS(),t)],p),C.c3,C.oG)],p),C.f6,C.j6),t),new P.G(s),t,t,1080,t,t,1920),n=M.ho(t,T.Uu(H.b([L.fM("All",B.fh(new P.G(s),20,C.H)),L.fM("UI/UX",B.fh(C.j,20,C.H)),L.fM("Flutter",B.fh(C.j,20,C.H)),L.fM("Logo Designs",B.fh(C.j,20,C.H)),L.fM("Other Designs",B.fh(C.j,20,C.H))],p),C.c3,C.ll),t,t,t,t,t,t,1600)
 p=H.b([new T.io(C.aY,t,t,o,t),new T.io(C.aY,t,t,M.ho(t,T.Fr(H.b([n,M.ho(t,new T.kq(C.aY,t,t,new T.fu(new V.aH(50,50,50,50),new B.vV(new G.MQ(new F.RT(),6,!0,!0,!0),t,C.o,!1,t,!1,t,!1,t,6,C.aq,C.wb,t),t),t),new P.G(4280764781),t,t,780,t,t,1600)],p),C.c3,C.ll),new P.G(r),t,t,1080,t,t,1920),t)],p)
 o=$.a0e()
 return new M.pC(new D.p5(C.r,o,new L.nr(t),new G.MS(p,P.b4([null,0],u.gm,u.e)),t),C.j,t)}}
@@ -25022,7 +25022,7 @@ F.RS.prototype={
 $0:function(){},
 $S:0}
 F.RT.prototype={
-$2:function(a,b){var t=null,s="https://github.com/akmalviya03/z1x2c3v4t5y6u7/blob/master/assets/assets/images/abhishak.png",r=new P.b0(30,30),q=new P.b0(30,30)
+$2:function(a,b){var t=null,s="https://github.com/akmalviya03/z1x2c3v4t5y6u7/raw/master/assets/assets/images/abhishak.png",r=new P.b0(30,30),q=new P.b0(30,30)
 return T.Fr(H.b([new T.fu(C.nY,T.Wk(new K.bj(r,r,r,r),M.ho(t,U.TW(s,C.hL),t,t,t,300,t,t,300)),t),new T.fu(C.nY,T.Wk(new K.bj(q,q,q,q),M.ho(t,U.TW(s,C.hL),t,t,t,300,t,t,300)),t)],u.t),C.c3,C.j6)},
 $C:"$2",
 $R:2}
