@@ -11,12 +11,7 @@ html::-webkit-scrollbar {
   width: 0px; /* For Chrome, Safari, and Opera */
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
-  text-decoration: none;
-}
+
 #overlay-nav {
   z-index: 1;
   position: fixed;
@@ -154,6 +149,10 @@ a:active {
   bottom: 5%;
 
   font-size: 1rem;
+}
+
+.links a{
+  text-decoration: none;
 }
 .github {
   margin-right: 2rem;
