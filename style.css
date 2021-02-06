@@ -145,14 +145,16 @@ html::-webkit-scrollbar {
   justify-content: center;
   position: absolute;
   bottom: 5%;
-  text-decoration: none;
+  
   font-size: 1rem;
 }
 .github{
   margin-right: 2rem;
+  text-decoration: none;
 }
 .github, .linkedin{
   color: #000;
+  text-decoration: none;
 }
 #portfolio {
   background-color: rgb(192, 231, 140);
