@@ -151,8 +151,8 @@ html::-webkit-scrollbar {
   font-size: 1rem;
 }
 
-.github a{
-  text-decoration: none;
+.links, .links:hover, .links:active, .links:visited, .links:focus {
+  text-decoration:none;
 }
 .github {
   margin-right: 2rem;
