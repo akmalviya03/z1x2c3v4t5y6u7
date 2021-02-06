@@ -3,11 +3,11 @@ body {
   letter-spacing: 0.5rem;
 }
 html {
-    scrollbar-width: none; /* For Firefox */
-    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
 html::-webkit-scrollbar {
-    width: 0px; /* For Chrome, Safari, and Opera */
+  width: 0px; /* For Chrome, Safari, and Opera */
 }
 #overlay-nav {
   z-index: 1;
@@ -25,20 +25,20 @@ html::-webkit-scrollbar {
 .overlay .closebtn {
   position: absolute;
   right: 2%;
-  font-size: 6.5rem;
   padding: 1rem;
   font-weight: 300;
+  font-size: 3.5rem;
 }
 
 .openbtn {
   position: fixed;
   right: 2%;
-  top: 3.4%;
   padding: 1rem;
-  font-size: 4rem;
   font-weight: 100;
   cursor: pointer;
   color: #fff;
+  top: 2%;
+  font-size: 2rem;
 }
 
 .nav-content {
@@ -51,12 +51,12 @@ html::-webkit-scrollbar {
 
 .overlay a {
   text-decoration: none;
-  font-size: 4rem;
   color: #d9ff51;
   display: block;
   transition: 0.3s;
   padding-bottom: 3rem;
   font-weight: 300;
+  font-size: 2rem;
 }
 
 .overlay a:hover,
@@ -99,29 +99,62 @@ html::-webkit-scrollbar {
 /*Nav Strike through End*/
 #home,
 #portfolio {
+  width: 100vw;
   height: 100vh;
-  width: 100%;
 }
 
 #home {
   background-color: aqua;
 }
+.userdetails{
+  display: block;
+}
+.profilePicture {
+  background-image: url(image.jpg);
+  height:10rem;
+  width: 10rem;
+  background-repeat: no-repeat;
+  background-position: 55% 15%;
+  border-radius: 40rem;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.userName{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 300;
+  transform: translate(-50%,-50%);
+  color: #fff;
+}
+.job{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+}
 
+.links{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 5%;
+  text-decoration: none;
+  font-size: 1rem;
+  
+}
+.github{
+  margin-right: 2rem;
+}
+.github, .linkedin{
+  color: #000;
+}
 #portfolio {
   background-color: rgb(192, 231, 140);
 }
 
-
-@media only screen and (max-width: 600px) {
-    .overlay a {
-      font-size: 2rem;
-    }
-
-    .overlay .closebtn {
-        font-size: 3.5rem;
-      }
-      .openbtn {
-          top: 2%;
-        font-size: 2rem;
-      }
-  }
