@@ -1,5 +1,5 @@
 body {
-  margin:0rem;
+  margin: 0rem;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.5rem;
 }
@@ -9,6 +9,13 @@ html {
 }
 html::-webkit-scrollbar {
   width: 0px; /* For Chrome, Safari, and Opera */
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
 }
 #overlay-nav {
   z-index: 1;
@@ -107,12 +114,12 @@ html::-webkit-scrollbar {
 #home {
   background-color: aqua;
 }
-.userdetails{
+.userdetails {
   display: block;
 }
 .profilePicture {
   background-image: url(image.jpg);
-  height:10rem;
+  height: 10rem;
   width: 10rem;
   background-repeat: no-repeat;
   background-position: 55% 15%;
@@ -120,43 +127,43 @@ html::-webkit-scrollbar {
   position: absolute;
   top: 30%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.userName{
+.userName {
   position: absolute;
   top: 60%;
   left: 50%;
   font-size: 2rem;
   text-align: center;
   font-weight: 300;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: #fff;
 }
-.job{
+.job {
   margin-top: 1rem;
   font-size: 1.5rem;
   font-weight: 500;
   color: #000;
 }
 
-.links{
+.links {
   width: 100vw;
   display: flex;
   justify-content: center;
   position: absolute;
   bottom: 5%;
-  
+
   font-size: 1rem;
 }
-.github{
+.github {
   margin-right: 2rem;
   text-decoration: none;
 }
-.github, .linkedin{
+.github,
+.linkedin {
   color: #000;
   text-decoration: none;
 }
 #portfolio {
   background-color: rgb(192, 231, 140);
 }
-
