@@ -15,9 +15,7 @@
   </head>
   <body>
     <div id="overlay-nav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-        >&times;</a
-      >
+      <a class="closebtn" onclick="closeNav()">&times;</a>
       <div class="nav-content">
         <a href="#home" class="line" onclick="closeNav()"><span>Home</span></a>
         <a href="#portfolio" class="line" onclick="closeNav()"
@@ -26,7 +24,19 @@
       </div>
     </div>
     <span class="openbtn" onclick="openNav()">&#9776;</span>
-    <div id="home"></div>
+    <div id="home">
+      <div class="userdetails">
+        <div class="profilePicture"></div>
+        <div class="userName">
+          ABHISHAK KR. MALVIYA
+          <div class="job">Software Developer</div>
+        </div>
+      </div>
+      <div class="links">
+        <a href="#home" class="github"><span>Github</span></a>
+        <a href="#home" class="linkedin"><span>Linkedin</span></a>
+      </div>
+    </div>
     <div id="portfolio"></div>
   </body>
 </html>
